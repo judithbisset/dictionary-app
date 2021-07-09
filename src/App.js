@@ -11,7 +11,7 @@ function App() {
         
        <p>Dictionary App</p>
           
-        <Dictionary />
+        <Dictionary defaultKeyword="kiwi" />
      
       <footer>
           This project was coded by{" "}

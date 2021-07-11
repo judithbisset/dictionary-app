@@ -9,7 +9,7 @@ function App() {
        <div className="container">
       
         
-       <p className="title">Judith's Word Storage Unit</p>
+       <p className="title">Word Storage Unit</p>
           
         <Dictionary defaultKeyword="science" />
      

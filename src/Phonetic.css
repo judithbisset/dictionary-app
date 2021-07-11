@@ -1,6 +1,7 @@
 .Phonetic {
   height: 60px;
   margin-bottom: 20px;
+  color: #4f4846;
 }
 .Phonetic a {
   border: 1px solid #ddd;
@@ -13,7 +14,7 @@
   margin-right: 10px;
 }
 .Phonetic a:hover {
-  background: purple;
+  background: #266150;
   color: white;
 }
 .Phonetic .text {

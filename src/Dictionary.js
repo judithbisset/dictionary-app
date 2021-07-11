@@ -10,7 +10,6 @@ export default function Dictionary(props) {
     let [loaded, setLoaded] = useState(false);
     let [photos, setPhotos] = useState(null);
     function handleDictionaryResponse(response) {
-        console.log(response.data[0]);
         setResults(response.data[0]);
 
 
@@ -34,7 +33,7 @@ export default function Dictionary(props) {
             <input type="search" autoFocus={true} onChange={handleKeywordChange} defaultValue={props.defaultKeyword}></input>
         </form>
         <div className="hint">
-            suggested words: kiwi, travel, trip, food...
+            suggested words: physics, travel, happy, food...
         </div>
         </section>
         <Results results={results} />

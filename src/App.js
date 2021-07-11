@@ -9,9 +9,9 @@ function App() {
        <div className="container">
       
         
-       <p>Dictionary App</p>
+       <p className="title">Judith's Word Storage Unit</p>
           
-        <Dictionary defaultKeyword="kiwi" />
+        <Dictionary defaultKeyword="science" />
      
       <footer>
           This project was coded by{" "}
